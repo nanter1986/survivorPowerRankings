@@ -1,5 +1,5 @@
 body {
-  background-image: url("../img/city.jpg");
+  background-image: url("../img/jungle.jpg");
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
@@ -11,7 +11,7 @@ body {
 }
 
 .navbar-inverse {
-  background-color: #422742cc;
+  background-color: rgba(7, 54, 19, 0.69);
   font-size: 16px;
 }
 
@@ -78,32 +78,7 @@ p {
   padding: 0px;
 }
 
-#poioi ul {
-  background-color: #14121299;
-  margin: 0px;
-}
 
-#treisLogoi {
-  background-image: url("../img/shop.jpeg");
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  color: white;
-  padding: 0px;
-}
-
-#treisLogoi>#accordion>div {
-  background-color: #14121299;
-  margin: 100px;
-}
-
-#accordion>.panel-default {
-  background-color: #14121200;
-}
-
-#accordion2>.panel-default {
-  background-color: #14121200;
-}
 
 .panel-body, .panel-title, .panel-default, .panel-title {
   background-color: #141212b3;
@@ -116,66 +91,6 @@ p {
 
 .panel-body {
   background-color: #422742cc;
-}
-
-#prosfores {
-  /*background-color: #141212b3;*/
-  background-image: url("../img/shop.jpeg");
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  color: white;
-  padding: 0px;
-}
-
-#ofeli {
-  background-image: url("../img/shop.jpeg");
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  color: white;
-  padding: 0px;
-}
-
-#thirtyeuro {
-  background-image: url("../img/shop.jpeg");
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  color: white;
-  padding: 0px;
-}
-
-#dynamikes {
-  background-image: url("../img/shop.jpeg");
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  color: white;
-  padding: 0px;
-}
-
-#eshop {
-  background-image: url("../img/shop.jpeg");
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  color: white;
-  padding: 0px;
-}
-
-#epikinwnia {
-  background-image: url("../img/phone.jpg");
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  color: white;
-  padding: 0px;
-  font-size: 20px;
-}
-
-#topothesia {
-  padding: 0px;
 }
 
 .panel-heading {
@@ -218,9 +133,7 @@ h1, h2, h3 {
   transition: padding 1s;
 }
 
-ul {
-  list-style-type: circle;
-}
+
 
 #back2Top {
   display: none;
@@ -252,48 +165,4 @@ ul {
 #back2Top:hover {
   background-color: #422742cc;
   /* Add a dark-grey background on hover */
-}
-
-#symbols {
-  text-align: center;
-}
-
-#footerMy {
-  /*background-image: url("../img/phone.jpg");*/
-  background-color: #291d28;
-  /*background-size: cover;
-  background-attachment: fixed;
-  background-position:center;*/
-  color: white;
-  padding: 0px;
-  font-size: 20px;
-  margin-bottom: 0px;
-}
-
-#footerText {
-  text-align: center !important;
-}
-
-@keyframes example {
-  0% {
-    color: #f2e5ff;
-  }
-  25% {
-    color: #d7afff;
-  }
-  50% {
-    color: #bd7cff
-  }
-  75% {
-    color: #d7afff;
-  }
-  100% {
-    color: #f2e5ff;
-  }
-}
-
-#rainbowText {
-  animation-name: example !important;
-  animation-duration: 2s !important;
-  animation-iteration-count: infinite;
 }
